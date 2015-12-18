@@ -1,0 +1,23 @@
+.main_left
+{
+	.information_genre
+	{
+
+		ul{
+			li{
+				float: left;
+				a{
+					display: block;
+					width: 98px;
+					height: 46px;
+					border: 1px solid #e6e6e6;
+					line-height: 46px;
+					text-align: center;
+					background: #ffffff;
+					color: #4c4c4c;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

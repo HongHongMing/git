@@ -3,6 +3,20 @@
   margin: 0 auto;
 }
 /***************导航*******************/
+.save
+    {
+      display: block;
+      background: #f29525;
+      color: #fff;
+      font-size: 14px;
+      margin-top: 54px;
+      width: 80px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      border-radius: 3px;
+
+    }
 .nav {
   background: #f5f5f5;
   border-bottom: 1px solid #f2f2f2;
@@ -138,14 +152,37 @@
   margin-top: 30px;
 }
 .main .main_right {
+  border-top: 4px solid #ffa130;
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
   width: 170px;
   float: left;
+}
+.main .main_right ul {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main .main_right ul li a {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.main .main_right ul li a:focus {
+  color: #fff;
+  background: #f88f1f;
 }
 .main .main_left {
   width: 1005px;
   float: right;
+  min-height: 888px;
 }
+/************脚本******************/ 
 .footer {
+  // margin-top: 87px;
   background: #f9f0e4;
   height: 120px;
 }

@@ -154,8 +154,8 @@
   width: 100%;
   height: 100%;
   display: block;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 .main .main_right ul li a:focus {
   color: #fff;
@@ -164,6 +164,7 @@
 .main .main_left {
   width: 1005px;
   float: right;
+  min-height: 888px;
 }
 .main .main_left .personal .my {
   float: left;
@@ -379,7 +380,7 @@
 }
 /**************脚本******************/
 .footer {
-  margin-top: 87px;
+  // margin-top: 87px;
   background: #f9f0e4;
   height: 120px;
 }
