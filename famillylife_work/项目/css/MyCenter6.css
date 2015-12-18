@@ -3,3 +3,51 @@
   padding-left: 29px;
   border-top: 1px solid #e5e5e5;
 }
+.LVexplain p {
+  font-size: 14px;
+  color: #737373;
+  margin-bottom: 16px;
+}
+.LVexplain #recharge {
+  display: inline-block;
+  width: 89px;
+  height: 35px;
+  background: #26c08a;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 28px;
+}
+.explain {
+  width: 547px;
+  margin-top: 100px;
+  padding-left: 67px;
+  background: url("../img/explain_bg.png") repeat-x;
+  background-position: 0 12px;
+}
+.explain ul {
+  display: inline-block;
+}
+.explain ul li a {
+  color: #808080;
+  height: 24px;
+  list-style: 24px;
+  display: inline-block;
+  text-align: center;
+  width: 105px;
+  margin-bottom: 16px;
+}
+.explain .explain_title {
+  font-size: 18px;
+  width: 105px;
+  background: url("../img/explain_title_bg.png");
+  height: 24px;
+  list-style: 24px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.explain .ml {
+  margin-left: 183px;
+}
