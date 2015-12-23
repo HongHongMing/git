@@ -1,0 +1,424 @@
+html,
+body {
+  max-width: 320px;
+}
+.T2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333333;
+  display: block;
+  padding-left: 13px;
+  padding-top: 11px;
+  padding-bottom: 12.5px;
+  background-color: #f8f8f8;
+}
+.function {
+  border-top: 1px solid #ededed;
+}
+.function li {
+  float: left;
+}
+.function a {
+  display: inline-block;
+  height: 79px;
+  width: 79px;
+  border: 1px solid #ededed;
+  border-right: none;
+  border-top: none;
+  text-align: center;
+}
+.function a div {
+  width: 36px;
+  height: 36px;
+  border-radius: 2.5px;
+  margin: 13px auto 0;
+  margin-bottom: 7px;
+}
+.fun1 {
+  position: relative;
+}
+.fun1:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center 5px no-repeat;
+  background-color: #ff565b;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun1:after {
+  display: inline-block;
+  content: "验房量房";
+  margin-top: 57.5px;
+  font-size: 1rem;
+}
+.fun2 {
+  position: relative;
+}
+.fun2:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -48px;
+  background-color: #fd8e35;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun2:after {
+  content: "装修预算";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.fun3 {
+  position: relative;
+}
+.fun3:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -102.5px;
+  background-color: #f5c132;
+  background-size: 50px 1000px;
+}
+.fun3:after {
+  content: "效果图";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.fun4 {
+  position: relative;
+}
+.fun4:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -158.5px;
+  background-color: #6cc143;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun4:after {
+  content: "设计师";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.fun5 {
+  position: relative;
+}
+.fun5:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -213px;
+  background-color: #7b7ad7;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun5:after {
+  content: "微工地";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.fun6 {
+  position: relative;
+}
+.fun6:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -267.5px;
+  background-color: #7b7ad7;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun6:after {
+  content: "装修攻略";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.fun7 {
+  position: relative;
+}
+.fun7:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -322px;
+  background-color: #42bde8;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun7:after {
+  content: "体验馆";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.fun8 {
+  position: relative;
+}
+.fun8:before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  top: 13px;
+  left: 22px;
+  background: url(../img/icon.png) center -375px;
+  background-color: #01d1d1;
+  background-size: 50px 1000px;
+  border-radius: 5px;
+}
+.fun8:after {
+  content: "家居商城";
+  margin-top: 57.5px;
+  display: inline-block;
+  font-size: 1rem;
+}
+.Decorated_pic {
+  background-color: #fff;
+  padding-bottom: 25px;
+  /* 	.T2
+{
+	.fs28();
+	font-weight: bold;
+	color: #333333;
+	display:block;
+	padding-left: 26/2px;
+	padding-top: 22/2px;
+	padding-bottom: 25/2px;
+	background-color: #f8f8f8;
+} */
+}
+.Decorated_pic .love {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 17px;
+  line-height: 20px;
+  background: url("../img/love.png") 5px 5px no-repeat;
+  background-size: 10px 9px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 18px;
+  border-radius: 3px;
+}
+.Decorated_pic .pic1 {
+  border-top: 1px solid #ededed;
+  position: relative;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.Decorated_pic .pic1 img {
+  width: 310px;
+  padding-top: 12.5px;
+}
+.Decorated_pic .pic1 .love {
+  top: 210px;
+  left: 285px;
+}
+.Decorated_pic .pic2 {
+  padding-left: 5px;
+  width: 144px;
+  margin-top: 12px;
+  float: left;
+  position: relative;
+}
+.Decorated_pic .pic2 .love {
+  top: 80px;
+  left: 112px;
+}
+.Decorated_pic .pic3 {
+  padding-right: 5px;
+  position: relative;
+  width: 144px;
+  margin-top: 12px;
+  float: right;
+}
+.Decorated_pic .love {
+  top: 80px;
+  left: 112px;
+}
+.Category_nav {
+  margin-top: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  padding-bottom: 13px;
+}
+.Category_nav .cat2 {
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px  dotted #ccc;
+}
+.Category_nav li {
+  height: 17.5px;
+  width: 52px;
+  display: inline-block;
+  background-color: #ededed;
+  margin-right: 7px;
+  text-align: center;
+}
+.Category_nav li:nth-child(5n) {
+  margin-right: 0px;
+}
+.Category_nav li:nth-child(5n+1) {
+  background-color: none;
+}
+.Category_nav li a {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 17.5px;
+}
+.Category_nav .lable {
+  background: url("../img/lable.jpg") no-repeat;
+  background-size: 52px 17.5px;
+}
+.Category_nav .lable a {
+  color: #fff;
+  padding-left: 6px;
+}
+.Category_nav .lable1 {
+  background: url("../img/lable2.jpg") no-repeat;
+  background-size: 52px 17.5px;
+}
+.Category_nav .lable1 a {
+  color: #fff;
+  padding-left: 6px;
+}
+.more {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+.more a {
+  display: inline-block;
+  width: 49%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ededed;
+}
+.more a:nth-child(1) {
+  color: #666666;
+  font-size: 1.2rem;
+  border-radius: 5px 0 0 5px;
+}
+.more a:nth-child(1) i {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  line-height: 17px;
+  background: url("../img/icon2.png") no-repeat;
+}
+.more a:nth-child(2) {
+  color: #fa5141;
+  font-size: 1.2rem;
+  border-left: none;
+  border-radius: 0px 5px 5px 0;
+}
+.more a:nth-child(2) i {
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+  line-height: 14px;
+  background: url("../img/icon3.png") no-repeat;
+}
+.imputedPrice {
+  background-color: #f8f8f8;
+  padding-top: 24px;
+}
+.imputedPrice_main {
+  position: relative;
+  background-color: #fff;
+  padding-top: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  border-top: 1px solid #ffb039;
+}
+.imputedPrice_main .input_area {
+  width: 136px;
+  height: 29.5px;
+}
+.imputedPrice_main span {
+  position: relative;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #343434;
+  display: block;
+  margin-bottom: 18px;
+}
+.imputedPrice_main span:before {
+  position: absolute;
+  top: -3px;
+  left: 35px;
+  content: "";
+  display: block;
+  width: 13.5px;
+  height: 18px;
+  background: url("../img/icon4.png") 0 0 no-repeat;
+  background-size: 14px 18px;
+}
+.imputedPrice_main select {
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  color: #6a6a6a;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+.imputedPrice_main i {
+  position: absolute;
+  top: 51px;
+  left: 128px;
+}
+.imputedPrice_main em:nth-chlid(1) {
+  position: absolute;
+}
+.input_area {
+  width: 136px;
+  height: 29.5px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+}
+.room_nu {
+  float: right;
+  width: 136px;
+  height: 29.5px;
+  margin-left: 6px;
+}
+.room_style {
+  height: 29.5px;
+  width: 100%;
+}
+.room_grade {
+  height: 29.5px;
+  width: 100%;
+}

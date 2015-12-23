@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>swiper</title>
+	<link rel="stylesheet" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		.swiper-container {
+			width: 100%;
+			max-width: 750px;
+		}
+		.swiper-slide {
+			display: block;
+			width: 100%;
+		}
+		.swiper-slide img {
+			display: block;
+			width:100%;
+		}
+		.pagination {
+		  position: absolute;
+		  left: 0;
+		  text-align: center;
+		  bottom:5px;
+		  width: 100%;
+		}
+		.swiper-pagination-switch {
+		  display: inline-block;
+		  width: 10px;
+		  height: 10px;
+		  border-radius: 10px;
+		  background: #ffffff;
+		  box-shadow: 0px 1px 2px #555 inset;
+		  margin: 0 3px;
+		  cursor: pointer;
+		}
+		.swiper-active-switch {
+		  background: #fa4e3d;
+		}
+	</style>
+</head>
+<body>
+	<div class="swiper-container">
+	     <div class="swiper-wrapper">
+	       <a href="###" class="swiper-slide"> <img src="img/head_sw_bg.jpg"> </a>
+	        <a href="###" class="swiper-slide"> <img src="img/head_sw_bg.jpg"> </a>
+	        <a href="###" class="swiper-slide"> <img src="img/head_sw_bg.jpg"> </a>
+	        <a href="###" class="swiper-slide"> <img src="img/head_sw_bg.jpg"> </a>
+	        <a href="###" class="swiper-slide"> <img src="img/head_sw_bg.jpg"> </a>
+	     </div>
+	     <div class="pagination"></div>
+	</div>
+	<div class="function_nav">
+		<div class="function">
+			<ul class="clearfix">
+				<li><a href="###" class="fun1">
+				</a></li>
+				<li><a href="###" class="fun2">
+				</a></li>
+				<li><a href="###" class="fun3">
+				</a></li>
+				<li><a href="###" class="fun4">
+				</a></li>
+				<li><a href="###" class="fun5">
+				</a></li>
+				<li><a href="###" class="fun6">
+				</a></li>
+				<li><a href="###" class="fun7">
+				</a></li>
+				<li><a href="###" class="fun8">
+				</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="Decorated_pic clearfix">
+		<span class="T2">装修效果图</span>
+		<div class="pic1">
+			<img src="img/pic-1.jpg" alt="">
+			<a class="love" href="###">0</a>
+		</div>
+		<div class="clearfix">
+			<div class="pic2">
+				<img src="img/pic-2.jpg" alt="">
+				<a class="love" href="###">0</a>
+			</div>
+			<div class="pic3">
+				<img src="img/pic-3.jpg" alt="">
+				<a class="love" href="###">0</a>
+			</div>
+		</div>
+		<div class="Category_nav">
+			<ul class="cat1">
+				<li class="lable"><a href="###">风格</a></li>
+				<li><a href="###">现代简约</a></li>
+				<li><a href="###">欧式</a></li>
+				<li><a href="###">新古典</a></li>
+				<li><a href="###">地中海</a></li>
+			</ul>
+			<ul class="cat2">
+				<li  class="lable1"><a href="###">户型</a></li>
+				<li><a href="###">小户型</a></li>
+				<li><a href="###">三居</a></li>
+				<li><a href="###">四局</a></li>
+				<li><a href="###">别墅</a></li>
+			</ul>
+		</div>
+		<div class="more">
+			<a href="###"><i>&nbsp;</i>&nbsp;&nbsp;&nbsp;换一批</a><a href="###">更多效果图&nbsp;&nbsp;&nbsp;<i>&nbsp;</i></a>
+		</div>
+	</div>
+	<!-- 算算你家装修多少钱 -->
+	<div class="imputedPrice">
+		<div class="imputedPrice_main">
+			<span>算算你家装修多少钱</span>
+			<form class="clearfix">
+				<input class="input_area" type="text" placeholder="请输入面积"><i>m&sup2;</i>
+				<select class="room_nu">
+					<option>四居室</option>
+				</select><em>&nbsp;</em>
+				<select class="room_style">
+					<option>混搭风格</option>
+				</select><em>&nbsp;</em>
+				<select class="room_grade">
+					<option>中档宜居</option>
+				</select><em>&nbsp;</em>
+			</form>
+		</div>
+	</div>
+	
+	<script src="js/idangerous.swiper.min.js"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container',{
+		    pagination: '.pagination',
+		    loop:true,
+		    grabCursor: true,
+		    paginationClickable: true,
+		    calculateHeight:true
+		  })
+	</script>
+</body>
+</html>
