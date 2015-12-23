@@ -283,6 +283,7 @@ body {
   background-color: #ededed;
   margin-right: 7px;
   text-align: center;
+  border-radius: 3px;
 }
 .Category_nav li:nth-child(5n) {
   margin-right: 0px;
@@ -351,6 +352,7 @@ body {
 .imputedPrice {
   background-color: #f8f8f8;
   padding-top: 24px;
+  padding-bottom: 27px;
 }
 .imputedPrice_main {
   position: relative;
@@ -390,17 +392,48 @@ body {
 .imputedPrice_main select {
   border: 1px solid #ededed;
   border-radius: 5px;
-  color: #6a6a6a;
+  color: #3c3c3c;
   font-size: 1rem;
   margin-bottom: 8px;
+}
+.imputedPrice_main select option {
+  color: #3c3c3c;
+}
+.imputedPrice_main .submit {
+  display: block;
+  width: 100%;
+  background: #fa4e3e;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  border: 1px solid #fb8075;
 }
 .imputedPrice_main i {
   position: absolute;
   top: 51px;
   left: 128px;
 }
-.imputedPrice_main em:nth-chlid(1) {
+.imputedPrice_main em {
   position: absolute;
+  width: 9px;
+  height: 6px;
+  background: url("../img/icon5.png") no-repeat;
+}
+.imputedPrice_main em:nth-of-type(1) {
+  top: 55px;
+  right: 16px;
+}
+.imputedPrice_main em:nth-of-type(2) {
+  top: 93px;
+  right: 16px;
+}
+.imputedPrice_main em:nth-of-type(3) {
+  top: 132px;
+  right: 16px;
 }
 .input_area {
   width: 136px;
@@ -421,4 +454,31 @@ body {
 .room_grade {
   height: 29.5px;
   width: 100%;
+}
+.strategy {
+  border: 1px solid #ededed;
+}
+.str-title {
+  border-top: 1px solid #ededed;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.str-title i {
+  display: inline-block;
+}
+.str-title a {
+  color: #444444;
+  display: inline-block;
+  width: 48%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+}
+.str-title a em {
+  height: 15px;
+  width: 15px;
 }
