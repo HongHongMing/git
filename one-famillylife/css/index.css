@@ -17,28 +17,39 @@ body {
 }
 .function li {
   float: left;
-}
-.function a {
+  width: 24.6%;
   display: inline-block;
-  height: 79px;
-  width: 79px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  /* height: 158/2px;
+		width: 158/2px; */
   border: 1px solid #ededed;
   border-right: none;
   border-top: none;
   text-align: center;
 }
-.function a div {
-  width: 36px;
-  height: 36px;
-  border-radius: 2.5px;
-  margin: 13px auto 0;
-  margin-bottom: 7px;
+.function a {
+  /* 
+		div{
+			width: 72/2px;
+			height: 72/2px;
+			border-radius: 5/2px;
+			margin: 13px auto 0;
+			margin-bottom: 14/2px;
+			}
+	
+
+	 */
+}
+.function a:after {
+  margin-top: 8px;
 }
 .fun1 {
   position: relative;
 }
 .fun1:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -50,16 +61,17 @@ body {
   border-radius: 5px;
 }
 .fun1:after {
-  display: inline-block;
+  display: block;
   content: "验房量房";
-  margin-top: 57.5px;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun2 {
   position: relative;
 }
 .fun2:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -72,15 +84,16 @@ body {
 }
 .fun2:after {
   content: "装修预算";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun3 {
   position: relative;
 }
 .fun3:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -92,15 +105,16 @@ body {
 }
 .fun3:after {
   content: "效果图";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun4 {
   position: relative;
 }
 .fun4:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -113,15 +127,16 @@ body {
 }
 .fun4:after {
   content: "设计师";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun5 {
   position: relative;
 }
 .fun5:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -134,15 +149,16 @@ body {
 }
 .fun5:after {
   content: "微工地";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun6 {
   position: relative;
 }
 .fun6:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -155,15 +171,16 @@ body {
 }
 .fun6:after {
   content: "装修攻略";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun7 {
   position: relative;
 }
 .fun7:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -176,15 +193,16 @@ body {
 }
 .fun7:after {
   content: "体验馆";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .fun8 {
   position: relative;
 }
 .fun8:before {
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   content: "";
   width: 36px;
   height: 36px;
@@ -197,8 +215,8 @@ body {
 }
 .fun8:after {
   content: "家居商城";
-  margin-top: 57.5px;
-  display: inline-block;
+  display: block;
+  /* margin-top: 115/2px; */
   font-size: 1rem;
 }
 .Decorated_pic {
@@ -880,7 +898,6 @@ footer li {
 footer li:nth-child(4) {
   width: 61%;
   margin-top: 6px;
-  padding-left: 10px;
   margin-bottom: 12.5px;
 }
 footer li:nth-child(4) a {
