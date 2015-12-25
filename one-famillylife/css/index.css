@@ -281,6 +281,41 @@ body {
   top: 80%;
   left: 75%;
 }
+#style-list {
+  width: 93.75%;
+  margin: 0 auto;
+}
+#style-list li {
+  margin-left: -2%;
+  padding: 15px 0;
+}
+#style-list li:first-child {
+  border-bottom: 1px dotted #ededed;
+}
+#style-list li:first-child a:first-child {
+  background: #ffc508 url("../img/arrow.jpg") no-repeat;
+  background-size: 15px 50px;
+  background-position: 0 -1px;
+}
+#style-list li:nth-child(2) a:first-child {
+  background: #f94e3c url("../img/arrow.jpg") no-repeat;
+  background-size: 15px 50px;
+  background-position: 0 -31px;
+}
+#style-list a {
+  float: left;
+  width: 18%;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-left: 2%;
+  background-color: #ededed;
+  border-radius: 4px;
+  color: #666666;
+}
+#style-list a:first-child {
+  color: #fff;
+}
 .Category_nav {
   margin-top: 14px;
   padding-left: 5px;
