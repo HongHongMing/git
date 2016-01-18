@@ -154,20 +154,21 @@
 	}
 	/*点击操作提示按钮后，菜单弹出规则，菜单隐藏，5s后回到菜单*/
 	handle.onclick=function()
-	{
+	{   
 		menu.style.display="none";
 		rule.style.display="block";
+        var em = document.getElementsByTagName("em")[0];
         var t = 5;
-		var em = document.getElementsByTagName("em")[0];
-		var menutime2 = setInterval(function(){
+        var menutime2 = setInterval(function(){
 			t--;
-			em.innerHTML=(t)+"s";
-			if(t<0)
+			if(t<=0)
 			{
 				clearInterval(menutime2);
 				rule.style.display="none";
 				menu.style.display="block";
+				t=5;
 			}
+			em.innerHTML=(t)+"s";
 		},1000)
 	}
 	var wolfBox = document.getElementById("wolfBox");
@@ -187,6 +188,7 @@
 	}
 
 	function createWolf() {
+
 		var wolf = document.createElement("div");
 		var hole = holeArr[randomNum(0,8)];
 		var who = Math.random() > 0.8 ? "x":"h";
@@ -196,21 +198,31 @@
 		wolf.index = 0;
 		wolf.flag = true;
 		wolf.ifClick = false;
+		var runflag  =true;
 		wolfBox.appendChild(wolf);
+		console.log(runflag);
 		wolf.onclick = function() {
-			wolf.ifClick = true;
-			wolf.index = 5;
-			if (who=="h") 
-			{
-				s=s+10;
+			console.log(runflag);
+			if(runflag)
+		{       
+				wolf.ifClick = true;
+						wolf.index = 5;
+						if (who=="h") 
+						{
+							s=s+10;
+							
+						}else if(who == "x")
+						{
+							s=s-10;
+						}
+						scroe.innerHTML=s+"分";
+		}
 				
-			}else if(who == "x")
-			{
-				s=s-10;
-			}
-			scroe.innerHTML=s+"分";
+		          runflag =false;
+
 		}
 		wolf.ownTimer = setInterval(function() {
+
 			if(wolf.flag || wolf.ifClick) {
 				wolf.index++;
 			}else {
